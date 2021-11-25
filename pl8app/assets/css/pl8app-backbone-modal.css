@@ -1,0 +1,292 @@
+/* Backbone Modal */
+
+.pl8app-backbone-modal * {
+  box-sizing: border-box
+}
+
+.pl8app-backbone-modal .pl8app-backbone-modal-content {
+  position: fixed;
+  background: #fff;
+  z-index: 100000;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  min-width: 600px;
+}
+
+.pl8app-backbone-modal .pl8app-backbone-modal-content article {
+  overflow: auto
+}
+
+.pl8app-backbone-modal.pl8app-backbone-modal-shipping-method-settings .pl8app-backbone-modal-content {
+  width: 75%;
+  min-width: 500px
+}
+
+.pl8app-backbone-modal .select2-container {
+  width: 100%!important
+}
+
+.pl8app-backbone-modal footer div {
+  text-align: right;
+  line-height: 23px;
+}
+
+.pl8app-backbone-modal.pl8app-order-preview .status-pending span {
+  background: #e5e5e5 !important;
+  color: #777 !important;
+}
+
+.pl8app-backbone-modal.pl8app-order-preview .status-processing span {
+  background: #c6e1c6;
+  color: #5b841b;
+}
+
+.pl8app-backbone-modal.pl8app-order-preview .status-cancelled span {
+  background: #b98888;
+  color: #FFF;
+}
+
+.pl8app-backbone-modal.pl8app-order-preview .status-delivered span {
+  background: #c8d7e1 !important;
+  color: #2e4453 !important;
+}
+
+.pl8app-backbone-modal.pl8app-order-preview .status-completed span {
+  background: #e5e5e5 !important;
+  color: #777 !important;
+}
+
+@media screen and (max-width:782px) {
+  .pl8app-backbone-modal .pl8app-backbone-modal-content {
+    width: 100%;
+    height: 100%;
+    min-width: 100%
+  }
+}
+
+.pl8app-backbone-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 360px;
+  background: #000;
+  opacity: .7;
+  z-index: 99900
+}
+
+.pl8app-backbone-modal-main {
+  padding-bottom: 55px
+}
+
+.pl8app-backbone-modal-main article,
+.pl8app-backbone-modal-main header {
+  display: block;
+  position: relative
+}
+
+.pl8app-backbone-modal-main .pl8app-backbone-modal-header {
+  height: auto;
+  background: #fcfcfc;
+  padding: 1em 1.5em;
+  border-bottom: 1px solid #ddd
+}
+
+.pl8app-backbone-modal-main .pl8app-backbone-modal-header h1 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5em;
+  display: inline-block;
+}
+
+.pl8app-backbone-modal-main .pl8app-backbone-modal-header .modal-close-link {
+  cursor: pointer;
+  color: #777;
+  height: 54px;
+  width: 54px;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  border: 0;
+  border-left: 1px solid #ddd;
+  background-color: transparent;
+  -webkit-transition: color .1s ease-in-out, background .1s ease-in-out;
+  transition: color .1s ease-in-out, background .1s ease-in-out
+}
+
+.pl8app-backbone-modal-main .pl8app-backbone-modal-header .modal-close-link::before {
+  font: normal 22px/50px dashicons!important;
+  color: #666;
+  display: block;
+  content: "\f335";
+  font-weight: 300
+}
+
+.pl8app-backbone-modal-main .pl8app-backbone-modal-header .modal-close-link:focus,
+.pl8app-backbone-modal-main .pl8app-backbone-modal-header .modal-close-link:hover {
+  background: #ddd;
+  border-color: #ccc;
+  color: #000
+}
+
+.pl8app-backbone-modal-main .pl8app-backbone-modal-header .modal-close-link:focus {
+  outline: 0
+}
+
+.pl8app-backbone-modal-main article {
+  padding: 1.5em
+}
+
+.pl8app-backbone-modal-main article p {
+  margin: 1.5em 0
+}
+
+.pl8app-backbone-modal-main article p:first-child {
+  margin-top: 0
+}
+
+.pl8app-backbone-modal-main article p:last-child {
+  margin-bottom: 0
+}
+
+.pl8app-backbone-modal-main article .pagination {
+  padding: 10px 0 0;
+  text-align: center
+}
+
+.pl8app-backbone-modal-main article table.widefat {
+  margin: 0;
+  width: 100%;
+  border: 0;
+  box-shadow: none
+}
+
+.pl8app-backbone-modal-main article table.widefat thead th {
+  padding: 0 1em 1em 1em;
+  text-align: left
+}
+
+.pl8app-backbone-modal-main article table.widefat thead th:first-child {
+  padding-left: 0
+}
+
+.pl8app-backbone-modal-main article table.widefat thead th:last-child {
+  padding-right: 0;
+  text-align: right
+}
+
+.pl8app-backbone-modal-main article table.widefat tbody td,
+.pl8app-backbone-modal-main article table.widefat tbody th {
+  padding: 1em;
+  text-align: left;
+  vertical-align: middle
+}
+
+.pl8app-backbone-modal-main article table.widefat tbody td:first-child,
+.pl8app-backbone-modal-main article table.widefat tbody th:first-child {
+  padding-left: 0
+}
+
+.pl8app-backbone-modal-main article table.widefat tbody td:last-child,
+.pl8app-backbone-modal-main article table.widefat tbody th:last-child {
+  padding-right: 0;
+  text-align: right
+}
+
+.pl8app-backbone-modal-main article table.widefat tbody td .select2-container,
+.pl8app-backbone-modal-main article table.widefat tbody td select,
+.pl8app-backbone-modal-main article table.widefat tbody th .select2-container,
+.pl8app-backbone-modal-main article table.widefat tbody th select {
+  width: 100%
+}
+
+.pl8app-backbone-modal-main footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  padding: 1em 1.5em;
+  background: #fcfcfc;
+  border-top: 1px solid #dfdfdf;
+  box-shadow: 0 -4px 4px -4px rgba(0, 0, 0, .1)
+}
+
+.pl8app-backbone-modal-main footer .inner {
+  text-align: right;
+  line-height: 23px
+}
+
+.pl8app-backbone-modal-main footer .pl8app-action-button-group__items a {
+  margin-right: 5px;
+}
+
+.pl8app-backbone-modal-main footer .inner .button {
+  margin-bottom: 0
+}
+.pl8app-backbone-modal-main footer .pl8app-action-button-group {
+  display: inline-block;
+  float: left;
+}
+.pl8app-backbone-modal-header .order-status {
+  float: right;
+  margin-right: 54px;
+}
+.pl8app-backbone-modal-header .order-status span {
+  text-transform: capitalize;
+  position: relative;
+  top: 5px;
+  padding: 10px;
+}
+.pl8app-backbone-modal-content strong {
+  margin-top: 8px;
+  display: inline-block;
+}
+
+.pl8app-backbone-modal-content .order-service-meta span {
+  display: block;
+}
+
+div.pl8app-order-preview .order-service-meta {
+  margin-top: 20px;
+}
+
+.pl8app-backbone-modal-content .pl8app-order-preview-address h2 {
+  margin-top: 0px;
+}
+.order-preview.disabled, span.order-status-loading.disabled:after {
+  content: "";
+  background: url(../images/wpspin-2x.gif) no-repeat center top;
+  background-size: 71%;
+  width: 25px;
+  height: 25px;
+  background-position: center center;
+}
+
+.pl8app-order-preview-address {
+  width: 50%;
+  float: left;
+}
+
+.pl8app-order-preview-customer-details {
+  width: 50%;
+  float: left;
+}
+
+.pl8app-order-preview-customer-details h2 {
+  margin-top: 0px;
+}
+
+.pl8app-clear-fix {
+  display: block;
+  clear: both;
+  float: none;
+}

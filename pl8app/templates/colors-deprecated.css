@@ -1,0 +1,274 @@
+
+/* Gray Color */
+a.nav-link.gray:hover, .pl8app_menuitems_list h5.pl8app-cat.gray, ul.pl8app-cart span.cart-total.gray,
+.special-margin.gray a,
+.special-inst.gray a,
+.pl8app-submit.button.gray .pl8app-add-to-cart-label,
+.btn.btn-block.btn-primary.gray:hover,
+.delivery-change.gray {
+    color: #ccc;
+}
+
+.pl8app-submit.button,
+.pl8app-submit.button.gray,
+.pl8app-submit.button:visited {
+    color: #333;
+    background: #f0f0f0;
+    border-color: #ccc
+}
+
+.btn.btn-block.btn-primary.gray:hover {
+    border: 1px solid #adadad;
+}
+
+.pl8app-popup-actions .submit-menuitem-button.gray,
+.btn.btn-block.btn-primary.gray,
+.pl8app-cart .pl8app_checkout.gray a,
+ html body #pl8appModal .pl8app-delivery-wrap.gray .nav-pills > li.active > a,
+ html body #pl8appModal .pl8app-delivery-wrap.gray .nav-pills > html body #pl8appModal .pl8app-delivery-wrap.gray li.active > html body #pl8appModal .pl8app-delivery-wrap.gray a:hover {
+    background: #f0f0f0;
+}
+
+.pl8app-cart .cart_item.pl8app_checkout.gray a,
+.pl8app-submit.button.gray:active,
+.pl8app-submit.button.gray:focus,
+.pl8app-submit.button.gray:hover,
+.pl8app-submit.button.gray:active,
+.pl8app-submit.button.gray:focus,
+.pl8app-submit.button.gray:hover {
+    color: #333;
+    background: #ebebeb;
+    border-color: #adadad
+}
+
+.pl8app-submit.button.gray:active {
+    background-image: none
+}
+
+/* White Button */
+
+.pl8app-submit.button.white {
+    color: #333;
+    background: #fff;
+    border-color: #ccc
+}
+
+.pl8app-submit.button.white:active,
+.pl8app-submit.button.white:focus,
+.pl8app-submit.button.white:hover {
+    color: #333;
+    background: #ebebeb;
+    border-color: #adadad
+}
+
+.pl8app-submit.button.white:active {
+    background-image: none
+}
+
+/* Blue Color */
+.pl8app-submit.button.blue {
+    color: #fff;
+    background: #428bca;
+    border-color: #357ebd
+}
+
+.pl8app-sidebar-cart-wrap .pl8app-clear-cart.blue:hover, .pl8app-sidebar-cart-wrap .pl8app-clear-cart.blue:hover, a.nav-link.blue:hover, .pl8app_menuitems_list h5.pl8app-cat.blue, ul.pl8app-cart span.cart-total.blue, .special-margin.blue a, .special-inst.blue a, .pl8app-submit.button.blue .pl8app-add-to-cart-label, .btn.btn-block.btn-primary.blue:hover, .delivery-change.blue {
+    color: #428bca;
+}
+
+.pl8app-submit.button.blue.active,
+.pl8app-submit.button.blue:focus,
+.pl8app-submit.button.blue:hover {
+    color: #fff;
+    background: #3276b1;
+    border-color: #285e8e
+}
+
+.cart_item.pl8app_checkout.blue a,
+.pl8app-popup-actions .submit-menuitem-button.blue,
+.btn.btn-block.btn-primary.blue,
+.pl8app-cart .pl8app_checkout.blue a,
+ html body #pl8appModal .pl8app-delivery-wrap.blue .nav-pills > li.active > a,
+ html body #pl8appModal .pl8app-delivery-wrap.blue .nav-pills > html body #pl8appModal .pl8app-delivery-wrap.blue li.active > html body #pl8appModal .pl8app-delivery-wrap.blue a:hover {
+    background: #3276b1;
+}
+
+.pl8app-submit.button.blue.active {
+    background-image: none
+}
+
+.btn.btn-block.btn-primary.blue:hover {
+    border: 1px solid #285e8e;
+}
+
+/* Red Color */
+.pl8app-submit.button.red {
+    color: #fff;
+    background: #d9534f;
+    border-color: #d43f3a
+}
+
+.pl8app-sidebar-cart-wrap .pl8app-clear-cart.red:hover, a.nav-link.red:hover, .pl8app_menuitems_list h5.pl8app-cat.red, ul.pl8app-cart span.cart-total.red, .special-margin.red a, .special-inst.red a, .pl8app-submit.button.red .pl8app-add-to-cart-label, .btn.btn-block.btn-primary.red:hover, .delivery-change.red {
+    color: #d4413c;
+}
+
+.pl8app-submit.button.red:active,
+.pl8app-submit.button.red:focus,
+.pl8app-submit.button.red:hover {
+    color: #fff;
+    background: #d2322d;
+    border-color: #ac2925
+}
+
+.pl8app-submit.button.red:active {
+    background-image: none
+}
+
+.btn.btn-block.btn-primary.red:hover {
+    border: 1px solid #ac2925;
+}
+
+.cart_item.pl8app_checkout.red a,
+.pl8app-popup-actions .submit-menuitem-button.red,
+.btn.btn-block.btn-primary.red,
+.pl8app-cart .pl8app_checkout.red a,
+ html body #pl8appModal .pl8app-delivery-wrap.red .nav-pills > li.active > a,
+ html body #pl8appModal .pl8app-delivery-wrap.red .nav-pills > html body #pl8appModal .pl8app-delivery-wrap.red li.active > html body #pl8appModal .pl8app-delivery-wrap.red a:hover {
+    background-color: #ac2925;
+}
+
+/* Green Color */
+.pl8app-submit.button.green {
+    color: #fff;
+    background: #5cb85c;
+    border-color: #4cae4c
+}
+
+.pl8app-submit.button.green:active,
+.pl8app-submit.button.green:focus,
+.pl8app-submit.button.green:hover {
+    color: #fff;
+    background: #47a447;
+    border-color: #398439
+}
+
+.pl8app-submit.button.green:active {
+    background-image: none
+}
+
+.pl8app-sidebar-cart-wrap .pl8app-clear-cart.green:hover, .pl8app_menuitems_list h5.pl8app-cat.green, ul.pl8app-cart span.cart-total.green,
+.special-margin.green a, .special-inst.green a,
+.pl8app-submit.button.green .pl8app-add-to-cart-label,
+.btn.btn-block.btn-primary.green:hover,
+.delivery-change.green, a.nav-link.green:hover {
+    color: #5cb85c;
+}
+
+.cart_item.pl8app_checkout.green a,
+.pl8app-popup-actions .submit-menuitem-button.green,
+.btn.btn-block.btn-primary.green,
+.pl8app-cart .pl8app_checkout.green a,
+ html body #pl8appModal .pl8app-delivery-wrap.green .nav-pills > li.active > a,
+ html body #pl8appModal .pl8app-delivery-wrap.green .nav-pills > html body #pl8appModal .pl8app-delivery-wrap.green li.active > html body #pl8appModal .pl8app-delivery-wrap.green a:hover {
+    background: #47a447;
+}
+
+.btn.btn-block.btn-primary.green:hover {
+    border: 1px solid #47a447;
+}
+
+/* Yellow Color */
+.pl8app-submit.button.yellow {
+    color: #fff;
+    background: #f0ad4e;
+    border-color: #eea236
+}
+
+.pl8app-submit.button.yellow:active,
+.pl8app-submit.button.yellow:focus,
+.pl8app-submit.button.yellow:hover {
+    color: #fff;
+    background: #ed9c28;
+    border-color: #d58512
+}
+
+.pl8app-submit.button.yellow:active {
+    background-image: none
+}
+
+.pl8app-sidebar-cart-wrap .pl8app-clear-cart.yellow:hover, .pl8app_menuitems_list h5.pl8app-cat.yellow, ul.pl8app-cart span.cart-total.yellow,
+.special-margin.yellow a,
+.special-inst.yellow a,
+.pl8app-submit.button.yellow .pl8app-add-to-cart-label,
+.btn.btn-block.btn-primary.yellow:hover,
+.delivery-change.yellow, a.nav-link.yellow:hover {
+    color: #f0ad4e;
+}
+
+.btn.btn-block.btn-primary.yellow:hover {
+    border: 1px solid #d58512;
+}
+
+
+.cart_item.pl8app_checkout.yellow a,
+.pl8app-popup-actions .submit-menuitem-button.yellow,
+.btn.btn-block.btn-primary.yellow,
+.pl8app-cart .pl8app_checkout.yellow a,
+ html body #pl8appModal .pl8app-delivery-wrap.yellow .nav-pills > li.active > a,
+ html body #pl8appModal .pl8app-delivery-wrap.yellow .nav-pills > html body #pl8appModal .pl8app-delivery-wrap.yellow li.active > html body #pl8appModal .pl8app-delivery-wrap.yellow a:hover {
+    background-color: #d58512;
+}
+
+/* Orange Color */
+.pl8app-submit.button.orange {
+    color: #fff;
+    background: #ed9c28;
+    border-color: #e3921e
+}
+
+.pl8app-sidebar-cart-wrap .pl8app-clear-cart.orange:hover, a.nav-link.orange:hover, .pl8app_menuitems_list h5.pl8app-cat.orange, ul.pl8app-cart span.cart-total.orange, .special-margin.orange a, .special-inst.orange a, .pl8app-submit.button.orange .pl8app-add-to-cart-label, .btn.btn-block.btn-primary.orange:hover, .delivery-change.orange {
+    color: #ed9c28;
+}
+
+.btn.btn-block.btn-primary.orange:hover {
+    border: 1px solid #ed9c28;
+}
+
+.pl8app-popup-actions .submit-menuitem-button.orange,
+.btn.btn-block.btn-primary.orange,
+.pl8app-cart .pl8app_checkout.orange a,
+ html body #pl8appModal .pl8app-delivery-wrap.orange .nav-pills > li.active > a,
+ html body #pl8appModal .pl8app-delivery-wrap.orange .nav-pills > html body #pl8appModal .pl8app-delivery-wrap.orange li.active > html body #pl8appModal .pl8app-delivery-wrap.orange a:hover {
+    background-color: #ed9c28;
+}
+
+.pl8app-submit.button.orange:active,
+.pl8app-submit.button.orange:focus,
+.pl8app-submit.button.orange:hover {
+    color: #fff;
+    background: #e59016;
+    border-color: #d58512
+}
+
+.pl8app-submit.button.orange:active {
+    background-image: none
+}
+
+/* Dark Gray Color */
+.pl8app-submit.button.dark-gray {
+    color: #fff;
+    background: #363636;
+    border-color: #222
+}
+
+.pl8app-submit.button.dark-gray:active,
+.pl8app-submit.button.dark-gray:focus,
+.pl8app-submit.button.dark-gray:hover {
+    color: #fff;
+    background: #333;
+    border-color: #adadad
+}
+
+.pl8app-submit.button.dark-gray:active {
+    background-image: none
+}

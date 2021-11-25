@@ -1,0 +1,230 @@
+table.form-table .pl8app-headings {display: none !important;}
+.pl8app_store_timings td.pl8app_close_time {text-align: center;}
+label[for=enable_preorder] {
+	display: inline-block;
+	margin-top: 30px !important;
+}
+html body table#pl8app_store_timings thead th {display: block !important;}
+table.form-table tbody tr>th.pl8app-heading {display: none !important;}
+.holidays-single-list-wrap .holidays-single-list {display: none;}
+label[for=enable_preorder] span {display: inline-block;}
+.holidays-lists-single-wrap .holidays-single-list {display: block; margin-bottom: 10px;}
+.pl8app-notice {font-weight: normal; font-style: italic;}
+.pl8app-wrapper span.pl8app-st-description {display:block; margin-top: 20px;}
+html body #pl8app_store_timings .pl8app_st_days_checkbox {
+	display: inline-block;
+	margin: 0 15px 10px 5px;
+	vertical-align: top;
+}
+
+html body #pl8app_store_timings .pl8app_st_days_name{
+	display: inline-block;
+	font-weight: 500;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	vertical-align: top;
+	width: 100px;
+}
+html body #pl8app_store_timings .pl8app_st_break_hours textarea {width: 100%;}
+
+#pl8app_store_timings .store_timing_checkbox_wrapper {
+	-webkit-user-select: none;
+	-webkit-tap-highlight-color: transparent;
+	box-sizing: content-box;
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	outline: none;
+	position: relative;
+	vertical-align: middle;
+	width: 40px;
+	z-index: 0;
+}
+
+#pl8app_store_timings .checkbox_stat_label{
+	display: inline-block;
+	margin: 0px 10px;
+	padding: 10px 0px;
+}
+.hidden{
+	display: none !important;
+}
+.pl8app_store_timings_day{
+	margin: 15px 0;
+	min-height: 36px;
+}
+.inventory_setting_checkbox_wrapper {
+	margin-left: 20px;
+}
+.store_timing_checkbox_wrapper input, .inventory_setting_checkbox_wrapper input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+.inventory_setting_checkbox_wrapper .st_checkbox_slider {
+	position: absolute;
+	cursor: pointer;
+	top: 5px;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+	margin-bottom: 0px;
+	width: 40px;
+	height: 8px;
+}
+
+.store_timing_checkbox_wrapper .st_checkbox_slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+	margin-bottom: 0px;
+}
+
+.store_timing_checkbox_wrapper .st_checkbox_slider:before, .inventory_setting_checkbox_wrapper .st_checkbox_slider:before{
+	position: absolute;
+	content: "";
+	height: 20px;
+	width: 20px;
+	left: 0px;
+	bottom: -6px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+	box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 20%);
+}
+
+input.st_checkbox:checked + .st_checkbox_slider {
+	background-color: #4285f480;
+}
+
+input.st_checkbox:checked + .st_checkbox_slider {
+	box-shadow: 0 0 1px #2196F3;
+}
+
+input.st_checkbox:checked + .st_checkbox_slider:before {
+	-webkit-transform: translateX(20px);
+	-ms-transform: translateX(20px);
+	transform: translateX(20px);
+	background-color: #1a73e8;
+}
+
+/* Rounded sliders */
+.st_checkbox_slider.round {
+	border-radius: 34px;
+}
+
+.st_checkbox_slider.round:before {
+	border-radius: 50%;
+}
+.st_day_timetable_wrapper {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+}
+.st_day_timetable{
+	display: inline-block;
+}
+.st_day_time .pl8app_st_open_time,.st_day_time .pl8app_st_close_time{
+	border-bottom: 1px solid #dadce0;
+	font-size: 16px;
+	height: 30px;
+	line-height: 30px;
+	margin: 2px 0 10px;
+	vertical-align: middle;
+	width: 120px;
+	display: inline-block;
+}
+.pl8app.storetime {
+	border-color: transparent;
+	border-style: solid;
+	border-width: 0 1px;
+	outline: none;
+	padding: 0;
+	width: 100%;
+	background-color: transparent;
+	color: inherit;
+	font: inherit;
+	line-height: inherit;
+}
+.pl8app.storetime:focus {
+	border: none !important;
+	outline: none !important;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.st_day_time .pass_stion {
+	color: #70757a;
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: middle;
+	width: 1em;
+}
+
+.st_day_time_remove {
+	margin-top: -10px;
+	margin-right: 16px;
+	vertical-align: middle;
+	transition: background .3s;
+	border: 0;
+	border-radius: 50%;
+	cursor: pointer;
+	display: inline-block;
+	flex-shrink: 0;
+	height: 48px;
+	outline: none;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	-webkit-tap-highlight-color: transparent;
+	width: 48px;
+	z-index: 0;
+	color: rgba(0,0,0,0.54);
+	fill: rgba(0,0,0,0.54);
+}
+
+.st_remove_time_icon {
+	position: relative;
+	top: 50%;
+}
+.st_remove_time_icon>span {
+	display: inline-block;
+	position: relative;
+	top: -12px;
+}
+
+.st_day_time_add {
+
+	margin-left: -16px;
+	line-height: 20px;
+	min-width: 88px;
+	transition: background .2s .1s;
+	border: 0;
+	border-radius: 3px;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+	text-transform: uppercase;
+	z-index: 0;
+	color: #1a73e8;
+}
+
+.st_day_time_add_new_line span {
+	font: 500 14px / 20px 'Google Sans', Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+	-webkit-font-smoothing: antialiased;
+	letter-spacing: .56px;
+	text-transform: none;
+	padding: 0 8px;
+	margin: 8px;
+}
+

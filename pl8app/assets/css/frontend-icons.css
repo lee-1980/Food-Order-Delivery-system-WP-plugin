@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'pl8app';
+  src:  url('../fonts/frontend/pl8app.eot?54fnnt');
+  src:  url('../fonts/frontend/pl8app.eot?54fnnt#iefix') format('embedded-opentype'),
+    url('../fonts/frontend/pl8app.ttf?54fnnt') format('truetype'),
+    url('../fonts/frontend/pl8app.woff?54fnnt') format('woff'),
+    url('../fonts/frontend/pl8app.svg?54fnnt#pl8app') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'pl8app' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dish:before {
+  content: "\e900";
+}
+.icon-clear:before {
+  background-image: url('../images/pl8app_logo.png');   background-size: 30px 30px;   display: inline-block;   width: 30px;   height: 20px;   background-repeat: no-repeat;      background-position: center;;
+}
+.icon-bin:before {
+  content: "\e902";
+}
+.icon-edit:before {
+  content: "\e903";
+}
+.icon-plus:before {
+  content: "\e904";
+}
+
+li.cart_item.empty:before{
+  font-family: pl8app !important;
+  content: "\e900";
+  font-size: 90px;
+}

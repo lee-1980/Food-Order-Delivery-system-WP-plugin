@@ -1,0 +1,138 @@
+table.form-table .pl8app-headings {display: none !important;}
+
+div.pl8app-delivery-fee-wrapper {margin-top: 15px; background: #FFF; padding: 10px 20px; border: 2px solid #007cba;border-radius: 10px; }
+
+.pl8app-delivery-fee-wrapper span { margin-bottom: 10px; display: block; color: #808080; font-size: 12px; font-style: italic;}
+
+
+
+table#pl8app_delivery_fees thead tr th {display: inline-block !important;}
+
+.pl8app-notice {font-weight: normal; font-style: italic;}
+.pl8app-delivery-fee-wrapper span.pl8app-st-description {display:block; margin-top: 20px;}
+
+.settings-row.delivery-fee-table{ margin-top: 20px; }
+
+.pl8app-delivery-fee-wrapper .settings-row {
+  margin-bottom: 20px;
+}
+.pl8app-delivery-fee-wrapper h4 {
+  margin: 10px 0px;
+}
+.pl8app_xl_field {
+  width: 35%;
+}
+table#pl8app_delivery_fees { margin-bottom: 12px; }
+table#pl8app_delivery_fees thead th {padding: 10px;}
+table#pl8app_delivery_fees thead th, table#pl8app_delivery_fees tbody td, table#pl8app_delivery_fees tfoot td {
+  width: 30%;
+}
+.delivery-fee-table {
+  width: 80%;
+}
+.pl8app-pull-right  {
+  float: right;
+}
+
+#pl8app_delivery_fees span.help-tag {
+  font-size: 12px;
+  font-style: italic;
+}
+#pl8app_delivery_fees tbody input[type=text], #pl8app_delivery_fees tbody input[type=number] {
+  width: 100%;
+}
+
+#pl8app_map_latlng {
+  display: none;
+}
+
+.settings-row.pl8app-delivery-method label {
+  margin-right: 15px;
+}
+
+.pl8app-delivery-units {
+  width: 100px;
+}
+
+#pl8app_map_canvas {
+  height: 400px; 
+  width: 100%; 
+  position: relative;
+  overflow: hidden;
+  top: 59px;
+  margin-bottom: 80px;
+  border: 10px solid #FFF;
+  box-shadow: 2px 1px 9px #999;
+}
+
+#pl8app-floating-panel {
+  width: 30%;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+input#pl8app-address {
+  width: 70%;
+  float: left;
+  height: 35px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding: 5px;
+}
+
+#pl8app-location-submit {
+  padding: 6px 7px;
+  vertical-align: middle;
+  position: relative;
+  top: 2px;
+  height: 35px;
+}
+
+div.location-based-settings.store-location-settings {
+  position: relative;
+}
+
+.settings-row.pl8app-floating-panel-help {
+  display: block;
+  clear: both;
+  overflow: hidden;
+  position: relative;
+  top: 60px;
+}
+a.pl8app-delivery-fee-remove {
+  background-image: url(../images/remove.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 34px;
+  height: 31px;
+  display: block;
+  background-color: #007cba;
+  border-radius: 3px;
+  background-size: 39%;
+}
+a.pl8app-delivery-fee-remove:hover {
+  background-color: #266da2;
+}
+.delivery-table-footer {
+  background-color: #eaeaea;
+}
+.pl8app-delivery-fee-wrapper input[type='text'], .pl8app-delivery-fee-wrapper input[type='number'] {
+  height: 38px !important;
+}
+#pl8app_delivery_location_fees td, #pl8app_delivery_fees td {
+  vertical-align: top;
+}
+
+#pl8app_delivery_location_fees td strong, #pl8app_delivery_fees td strong {
+  display: block;
+  margin-bottom: 5px;
+}

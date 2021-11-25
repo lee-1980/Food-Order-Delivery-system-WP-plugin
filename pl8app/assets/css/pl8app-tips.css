@@ -1,0 +1,108 @@
+/**
+* pl8app Tips Add-on CSS
+**/
+.tip-wrapper {
+  display: table;
+  margin-left: 0;
+}
+.tip-wrapper li {
+  display: table-cell;
+  padding-right: 0px;
+}
+.tip-wrapper li a {
+  display: block;
+  padding: 8px;
+  background: #FFF;
+  color: #333;
+  font-weight: 500;
+  padding: 19px 17px;
+  border: 1px solid #e1e1e1;
+  border-right: none;
+}
+.tip-wrapper li a.pl8app-remove-tip {
+  border-radius: 7px 0 0 7px;
+}
+.tip-wrapper li:last-child a {
+  border-radius: 0 7px 7px 0;
+  border-right: 1px solid #e1e1e1;
+}
+.tip-wrapper li a.active {
+  background: #d9534f;
+  color: #FFF;
+}
+.pl8app-custom-tip-wrapper {
+  width: 250px;
+  display: block;
+  clear: both;
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+.top25 {
+  margin-top: 25px;
+}
+.section-label a.section-label-a {
+  color: #333;
+  display: block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  position: relative;
+}
+.section-label a.section-label-a span.tips-text {
+  background: #fff;
+  position: relative;
+  z-index: 2;
+  padding: 0 8px 0 0;
+  font-size: 19px;
+  font-weight: normal;
+  display: block;
+}
+.section-label a.section-label-a span.tips-subtext {
+  background: #fff;
+  position: relative;
+  z-index: 2;
+  padding: 0 8px 0 0;
+  font-size: 14px;
+  font-weight: normal;
+  display: block;
+}
+.filter-box a b, .menu-cat a b, .section-label a.section-label-a b {
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 1;
+}
+.grey-fields {
+  background: #e2e3e3;
+  border: 1px solid #c9c7c7;
+  color: #1e1e1e;
+  padding: 8px 10px;
+  width: auto;
+}
+.pl8app-custom-tip-wrapper .pl8app_tips_custom_amount {
+  border-radius: 0px 5px 5px 0px;
+  padding: 10px 12px;
+  float: right;
+  display: inline-block;
+  width: 28%;
+  height: 44px;
+}
+#pl8app_checkout_form_wrap  input#manual_tip_value {
+  padding: 7px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-radius: 5px 0 0 5px;
+  background-color: #FFF;
+  display: inline-block;
+  float: left;
+  margin: 0px;
+  height: 44px;
+}
+.pl8app-tips {
+  margin-bottom: 45px;
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
